@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "RTS",
+			"path": "."
+		},
+		{
+			"path": "../3D legacy"
+		}
+	],
+	"settings": {}
+}
