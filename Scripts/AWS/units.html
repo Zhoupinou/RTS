@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Unités - 3D Legacy</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h2 {
+            padding-left: 20px; /* Décale le titre de x tabulations, tabulation = 4px */
+        }
+        .resource-cost {
+            display: flex;
+            align-items: center;
+        }
+        .resource-cost img {
+            width: 30px; /* Vous pouvez ajuster la taille de l'image ici */
+            height: 30px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .cost-container {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unités de la faction Slim</h1>
+    <p>Ici, vous pouvez en savoir plus sur les différentes unités de 3D Legacy.</p>
+    <h2>Unités</h2>
+    <ul>
+        <li>
+            Paysan - Arborant un fier casque viking, ce slim n'est en réalité qu'un collecteur de ressources pour sa tribu. Ils sont présents dès le début de partie.
+            <div class="cost-container">
+                <div class="resource-cost">
+                    <img src="Paysan.jpg" alt="Paysan"> Paysan
+                </div>
+            </div>
+        </li>
+
+        <li>
+            FatSlime - Plus grand et plus fort que ses congénères, le FatSlime encourage les collecteurs. Il permet d'accroître la capacité de leurs inventaires de 1. Nécessite de l'or, du fer et du bois.
+            <div class="cost-container">
+                <div class="resource-cost">
+                    <img src="FatSlime.jpg" alt="FatSlime"> FatSlime
+                </div>
+                <div class="resource-cost">
+                    <img src="Or.jpg" alt="Or"> 10 Or
+                </div>
+                <div class="resource-cost">
+                    <img src="Fer.jpg" alt="Fer"> 10 Fer
+                </div>
+                <div class="resource-cost">
+                    <img src="Bois.jpg" alt="Bois"> 10 Bois
+                </div>
+            </div>
+        </li>
+
+        <li>
+            KingSlime - Il est le roi des slimes. Lorsqu'il est recruté, il augmente de 10 la quantité restante pour chaque ressources non-épuisées. Ainsi, la faction pourra connaître l'abondance.
+            <div class="cost-container">
+                <div class="resource-cost">
+                    <img src="KingSlime.jpg" alt="KingSlime"> KingSlime
+                </div>
+                <div class="resource-cost">
+                    <img src="Or.jpg" alt="Or"> 30 Or
+                </div>
+                <div class="resource-cost">
+                    <img src="Fer.jpg" alt="Fer"> 30 Fer
+                </div>
+                <div class="resource-cost">
+                    <img src="Bois.jpg" alt="Bois"> 30 Bois
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <nav>
+        <a href="index.html">Présentation du jeu</a> |
+        <a href="units.html">Unités</a> |
+        <a href="rules.html">Règles</a> |
+        <a href="buildings.html">Bâtiments</a>
+    </nav>
+</body>
+</html>
